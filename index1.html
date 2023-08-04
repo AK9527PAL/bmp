@@ -97,9 +97,11 @@
             margin: 3px;
         } */
     </style>
-    <!-- <script>
-        
-    </script> -->
+    <script>
+        $(document).ready(function () {
+            $('#mymodal1').modal('show')
+        })
+    </script>
 </head>
 
 <body>
@@ -155,7 +157,7 @@
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="/Admission-Procedure.html">Admission Procedure</a>
                                 </li>
-                                <li><a class="dropdown-item" href="/Admission-Fee.html">Admission Fee</a></li>
+                                <li><a class="dropdown-item" href="/Admission-Form.html">Admission Form</a></li>
                                 <li><a class="dropdown-item" href="/Fee-Structure.html">Fee Structure</a></li>
                                 <!-- <li><a class="dropdown-item" href="/timetable4.html">9th to 12th Boys</a></li> -->
                             </ul>
@@ -194,7 +196,7 @@
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <!-- <h5 class="modal-title " id="exampleModalLabel" >WELCOME</h5> -->
+                                        <h5 class="modal-title " id="exampleModalLabel" >WELCOME</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
@@ -210,7 +212,7 @@
                                                 <div
                                                     class="col-md-7 right-box justify-content-center align-items-center">
                                                     <div class="header-items">
-                                                        <p>Hello again! </p>
+                                                        <h1>Hello again! </h1>
                                                         <p>We are happy to have you back </p>
                                                     </div>
                                                     <div class="input-group mb-3">
@@ -232,12 +234,23 @@
                                                                     me</small></label>
                                                         </div>
                                                         <div class="forgot">
-                                                            <small><a href="">Forgot password</a></small>
+                                                            <small><a href="" style="color: blue;">Forgot
+                                                                    password</a></small>
                                                         </div>
                                                     </div>
                                                     <div class="input-group mb-3">
                                                         <button class="btn btn-primary btn-lg w-100 fs-6">Login</button>
-                                                    </div >
+                                                    </div>
+                                                    <div class="input-group mb-1">
+                                                        <button class="btn btn-light btn-lg w-100  fs-6"><img
+                                                                src="./img/38.jpeg" width="20px" alt=""> <small
+                                                                class="mb-2">Login with google</small></button>
+                                                    </div>
+                                                    <div class="mt-2 w-100">
+                                                        <small>Don't have account? <a href=""
+                                                                style="color: blue;">Signup</a>
+                                                        </small>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -478,7 +491,23 @@
         </div>
     </div> -->
     <!-- card section end -->
+    
 
+    <!-- Modal -->
+    <div class="modal fade" id="myModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">ADMISSION OPEN</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="./img/15.jpg" class="img-fluid" alt="">
+                </div>
+
+            </div>
+        </div>
+    </div>
     <!-- footer section start-->
     <div class="container-fluid " style="background-color: #e3f2fd; padding: 20px;">
         <div class="row">
